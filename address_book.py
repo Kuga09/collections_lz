@@ -10,12 +10,14 @@ elif answer == 'Удаление записи':
     print('Введите имя человека для удаления')
     k=input()
     del dict[k]
+    print(dict)
 elif answer == 'Изменение адреса':
     print('Введите имя') 
     k=input()
     print('Введите новый адрес')
     k1=input()
     dict[k]=k1
+    print(dict)
 else:
     print('Введена неверная команда')
-print(dict)
+# print(dict)
